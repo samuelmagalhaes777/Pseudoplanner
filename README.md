@@ -6,13 +6,13 @@ Behaviors are created from a predefined sequence of states - a list that is iter
 Inspired by elements from [GOAP](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=0c35d00a015c93bac68475e8e1283b02701ff46b) logic and [Behavior Trees](https://en.wikipedia.org/wiki/Behavior_tree_(artificial_intelligence,_robotics_and_control)), but using state machines in tandem as a base.
 
 ### File summary
-1. PseudoPlanner.cs
+1. PseudoPlanner.cs - 
    The motor for the plans. Makes scripts update during runtine and has some methods for handling plan transitions and has a helper method for delayed logic.
-2. PseudoPlannerBasePlan.cs
+2. PseudoPlannerBasePlan.cs - 
    The template script the plans derive from.
-3. Flags.cs
+3. Flags.cs - 
    The boolean methods the script will check to evaluate the state list iterations.
-5. PlanFlank.cs
+5. PlanFlank.cs - 
    A concrete example of a plan.
 
 *@2025 - Personal project. Authored by myself.*
@@ -28,13 +28,13 @@ Inspirado nos elementos de lógica [PAOM](https://citeseerx.ist.psu.edu/document
 
 
 ### Resumo dos arquivos
-1. PseudoPlanner.cs
+1. PseudoPlanner.cs -
     O motor para os planos. Faz com que os scripts sejam atualizados durante a execução e possui alguns métodos para lidar com transições de planos, além de um método auxiliar para lógica atrasada.
-2. PseudoPlannerBasePlan.cs
+2. PseudoPlannerBasePlan.cs - 
     O script de modelo do qual os planos derivam.
-3. Flags.cs
+3. Flags.cs - 
     Os métodos booleanos que o script verificará para avaliar as iterações da lista de estados.
-5. PlanFlank.cs
+5. PlanFlank.cs - 
     Um exemplo concreto de um plano.
 
 *@2025 - Projeto pessoal. Elaborado por mim.*
