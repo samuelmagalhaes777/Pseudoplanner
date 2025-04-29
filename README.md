@@ -5,7 +5,7 @@ Behaviors are created from a predefined sequence of states - a list that is iter
 
 Inspired by elements from [GOAP](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=0c35d00a015c93bac68475e8e1283b02701ff46b) logic and [Behavior Trees](https://en.wikipedia.org/wiki/Behavior_tree_(artificial_intelligence,_robotics_and_control)), but using state machines in tandem as a base.
 
-###File summary
+### File summary
 1. PseudoPlanner.cs
    The motor for the plans. Makes scripts update during runtine and has some methods for handling plan transitions and has a helper method for delayed logic.
 2. PseudoPlannerBasePlan.cs
@@ -27,7 +27,7 @@ não ocorrendo planejamento de verdade, sendo assim basicamente só um roteiro o
 Inspirado nos elementos de lógica [PAOM](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=0c35d00a015c93bac68475e8e1283b02701ff46b)<sup>(Planejador de Ações Orientadas a Metas, ou Goal Oriented Action Planner, GOAP em inglês)</sup> e [Árvores de comportamento](https://en-m-wikipedia-org.translate.goog/wiki/Behavior_tree_(artificial_intelligence,_robotics_and_control)?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp), mas utilizando a lógica simples de uma máquina de estados.
 
 
-###Resumo dos arquivos
+### Resumo dos arquivos
 1. PseudoPlanner.cs
     O motor para os planos. Faz com que os scripts sejam atualizados durante a execução e possui alguns métodos para lidar com transições de planos, além de um método auxiliar para lógica atrasada.
 2. PseudoPlannerBasePlan.cs
