@@ -1,0 +1,2 @@
+# PseudoPlanejador
+Pseudo planejador
