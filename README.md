@@ -1,5 +1,5 @@
 # Pseudoplanner (EN)
-An
+A
 sketch of an AI design pattern for videogames written in C#, designed to make organizing state machine logic transitions easier. The setup is basically two state machines, a local state state monitor and an optional world state monitor.
 
 Behaviors are created from a predefined sequence of states - a list that is iterated based on logical conditions - so there's no real planning going on. It's pretty much a script or routine that the bot follows, making it look like it's rationalizing plans during gameplay. Hence the name "Pseudo-planner".
